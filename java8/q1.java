@@ -49,15 +49,14 @@ public class q1 {
         concat obj3 = (a, b) -> a+b;
         System.out.println("Enter two strings: ");
         String str1 = sc.nextLine();
-        sc.nextLine();
         String str2 = sc.nextLine();
         System.out.println("After concatenating them: "+obj3.concatString(str1, str2));
 
         //Part 4
         uppercase o = (s) -> s.toUpperCase();
         System.out.println("Enter the string to be converted to uppercase: ");
-        str1 = sc.nextLine();
-        System.out.println("After converting it to uppercase: "+o.convert(str1));
+        String str3 = sc.nextLine();
+        System.out.println("After converting it to uppercase: "+o.convert(str3));
         sc.close();
     }
 }
